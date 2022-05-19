@@ -3,21 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{52A6EFF0-7C87-4360-A797-E5521F26B058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{52A6EFF0-7C87-4360-A797-E5521F26B058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection", "Inspection\Inspection.csproj", "{7AA5CDC4-90D6-47B6-A357-854EBAADC941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspection", "Inspection\Inspection.csproj", "{7AA5CDC4-90D6-47B6-A357-854EBAADC941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construction", "Construction\Construction.csproj", "{ABAEE76E-C1A6-4E75-A13D-6EC9CCB46CBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Construction", "Construction\Construction.csproj", "{ABAEE76E-C1A6-4E75-A13D-6EC9CCB46CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invocation", "Invocation\Invocation.csproj", "{A26E7FB0-E135-4C92-853A-B7699E53910B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invocation", "Invocation\Invocation.csproj", "{A26E7FB0-E135-4C92-853A-B7699E53910B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{9EBC870A-9D25-4B3E-8DE4-907BB68C251F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{9EBC870A-9D25-4B3E-8DE4-907BB68C251F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{59C5C707-C107-44C3-A2E5-7A9854C434C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{59C5C707-C107-44C3-A2E5-7A9854C434C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FReflection", "FReflection", "{58641923-A4D4-44C1-923C-CDA39824EAE0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "DynamicProgramming", "{C22CD15C-71E9-40F1-8108-07FA3E997060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtensionMethods", "ExtensionMethods", "{C14B55D2-EAF0-4823-A3B8-297BD51A74A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectApp", "DynamicObject\DynamicObjectApp.csproj", "{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForXmlParsing", "DynamicForXmlParsing\DynamicForXmlParsing.csproj", "{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandoObjectApp", "ExpandoObject\ExpandoObjectApp.csproj", "{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPatternWithDynamicDispatch", "VisitorPatternWithDynamicDispatch\VisitorPatternWithDynamicDispatch.csproj", "{8FEC53BF-BC50-4231-8001-EFB0E3653814}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +59,22 @@ Global
 		{59C5C707-C107-44C3-A2E5-7A9854C434C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59C5C707-C107-44C3-A2E5-7A9854C434C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59C5C707-C107-44C3-A2E5-7A9854C434C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +86,10 @@ Global
 		{A26E7FB0-E135-4C92-853A-B7699E53910B} = {58641923-A4D4-44C1-923C-CDA39824EAE0}
 		{9EBC870A-9D25-4B3E-8DE4-907BB68C251F} = {58641923-A4D4-44C1-923C-CDA39824EAE0}
 		{59C5C707-C107-44C3-A2E5-7A9854C434C8} = {58641923-A4D4-44C1-923C-CDA39824EAE0}
+		{7737D96A-A02E-4E2B-BB35-95F2DB6455D3} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
+		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
+		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
+		{8FEC53BF-BC50-4231-8001-EFB0E3653814} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2DFF0A5-55E4-49E5-9868-9EBFE711C2D3}
