@@ -21,13 +21,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "Dynam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtensionMethods", "ExtensionMethods", "{C14B55D2-EAF0-4823-A3B8-297BD51A74A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectApp", "DynamicObject\DynamicObjectApp.csproj", "{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectApp", "DynamicObject\DynamicObjectApp.csproj", "{7737D96A-A02E-4E2B-BB35-95F2DB6455D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForXmlParsing", "DynamicForXmlParsing\DynamicForXmlParsing.csproj", "{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicForXmlParsing", "DynamicForXmlParsing\DynamicForXmlParsing.csproj", "{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandoObjectApp", "ExpandoObject\ExpandoObjectApp.csproj", "{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandoObjectApp", "ExpandoObject\ExpandoObjectApp.csproj", "{9FEE9F70-966B-4FF1-8554-2BA8A2E71160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPatternWithDynamicDispatch", "VisitorPatternWithDynamicDispatch\VisitorPatternWithDynamicDispatch.csproj", "{8FEC53BF-BC50-4231-8001-EFB0E3653814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPatternWithDynamicDispatch", "VisitorPatternWithDynamicDispatch\VisitorPatternWithDynamicDispatch.csproj", "{8FEC53BF-BC50-4231-8001-EFB0E3653814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{BEE21506-EBCF-48D7-85EF-364B1AD43D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onValueTuples", "onValueTuples\onValueTuples.csproj", "{C2999813-84BA-4275-BC93-DF67E057A23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndPersistence", "AndPersistence\AndPersistence.csproj", "{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodPatterns", "ExtensionMethodPatterns\ExtensionMethodPatterns.csproj", "{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndTheMaybeMonad", "AndTheMaybeMonad\AndTheMaybeMonad.csproj", "{26DB7967-7101-4A9D-B746-31736E29CB82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEC53BF-BC50-4231-8001-EFB0E3653814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE21506-EBCF-48D7-85EF-364B1AD43D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE21506-EBCF-48D7-85EF-364B1AD43D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE21506-EBCF-48D7-85EF-364B1AD43D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE21506-EBCF-48D7-85EF-364B1AD43D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2999813-84BA-4275-BC93-DF67E057A23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2999813-84BA-4275-BC93-DF67E057A23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2999813-84BA-4275-BC93-DF67E057A23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2999813-84BA-4275-BC93-DF67E057A23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DB7967-7101-4A9D-B746-31736E29CB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DB7967-7101-4A9D-B746-31736E29CB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DB7967-7101-4A9D-B746-31736E29CB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DB7967-7101-4A9D-B746-31736E29CB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +120,11 @@ Global
 		{99CEA173-0943-48F7-B4CD-2D22B7A3CB2D} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
 		{9FEE9F70-966B-4FF1-8554-2BA8A2E71160} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
 		{8FEC53BF-BC50-4231-8001-EFB0E3653814} = {C22CD15C-71E9-40F1-8108-07FA3E997060}
+		{BEE21506-EBCF-48D7-85EF-364B1AD43D46} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
+		{C2999813-84BA-4275-BC93-DF67E057A23E} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
+		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
+		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
+		{26DB7967-7101-4A9D-B746-31736E29CB82} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2DFF0A5-55E4-49E5-9868-9EBFE711C2D3}
