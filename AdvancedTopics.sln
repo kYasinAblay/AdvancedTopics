@@ -29,15 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandoObjectApp", "Expando
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPatternWithDynamicDispatch", "VisitorPatternWithDynamicDispatch\VisitorPatternWithDynamicDispatch.csproj", "{8FEC53BF-BC50-4231-8001-EFB0E3653814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{BEE21506-EBCF-48D7-85EF-364B1AD43D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{BEE21506-EBCF-48D7-85EF-364B1AD43D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onValueTuples", "onValueTuples\onValueTuples.csproj", "{C2999813-84BA-4275-BC93-DF67E057A23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onValueTuples", "onValueTuples\onValueTuples.csproj", "{C2999813-84BA-4275-BC93-DF67E057A23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndPersistence", "AndPersistence\AndPersistence.csproj", "{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndPersistence", "AndPersistence\AndPersistence.csproj", "{6117CC3A-2621-4EEE-A960-3764B3E1F1C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodPatterns", "ExtensionMethodPatterns\ExtensionMethodPatterns.csproj", "{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodPatterns", "ExtensionMethodPatterns\ExtensionMethodPatterns.csproj", "{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndTheMaybeMonad", "AndTheMaybeMonad\AndTheMaybeMonad.csproj", "{26DB7967-7101-4A9D-B746-31736E29CB82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndTheMaybeMonad", "AndTheMaybeMonad\AndTheMaybeMonad.csproj", "{26DB7967-7101-4A9D-B746-31736E29CB82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MemoryManagement", "MemoryManagement", "{FFF5972E-E05E-43B0-BA86-3B834DD84ABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssortedTopics", "AssortedTopics", "{45994A27-9DB5-40AA-93A7-594ACAAD5E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InKeyword__Parameters", "InKeyword__Parameters\InKeyword__Parameters.csproj", "{F3013F69-2ED7-4E82-9335-65EB98B40E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanT_Demo", "SpanT_Demo\SpanT_Demo.csproj", "{CDF9761C-35FC-45E1-A97D-EC8CC333AC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref_ReadOnlyVariables", "ref_ReadOnlyVariables\ref_ReadOnlyVariables.csproj", "{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +115,18 @@ Global
 		{26DB7967-7101-4A9D-B746-31736E29CB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26DB7967-7101-4A9D-B746-31736E29CB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26DB7967-7101-4A9D-B746-31736E29CB82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3013F69-2ED7-4E82-9335-65EB98B40E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3013F69-2ED7-4E82-9335-65EB98B40E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3013F69-2ED7-4E82-9335-65EB98B40E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3013F69-2ED7-4E82-9335-65EB98B40E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF9761C-35FC-45E1-A97D-EC8CC333AC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF9761C-35FC-45E1-A97D-EC8CC333AC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF9761C-35FC-45E1-A97D-EC8CC333AC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF9761C-35FC-45E1-A97D-EC8CC333AC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +147,9 @@ Global
 		{6117CC3A-2621-4EEE-A960-3764B3E1F1C0} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
 		{D2CA4374-863F-4CBE-8D10-3B99F70E5BF5} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
 		{26DB7967-7101-4A9D-B746-31736E29CB82} = {C14B55D2-EAF0-4823-A3B8-297BD51A74A9}
+		{F3013F69-2ED7-4E82-9335-65EB98B40E2D} = {FFF5972E-E05E-43B0-BA86-3B834DD84ABF}
+		{CDF9761C-35FC-45E1-A97D-EC8CC333AC63} = {FFF5972E-E05E-43B0-BA86-3B834DD84ABF}
+		{E6CD95D9-3E1C-42BB-AF96-C77E7618ACFE} = {FFF5972E-E05E-43B0-BA86-3B834DD84ABF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2DFF0A5-55E4-49E5-9868-9EBFE711C2D3}
